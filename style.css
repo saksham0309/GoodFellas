@@ -3,7 +3,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #f3f3f3;
+    background-image: url('img.jpg');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(15px);
 }
 
 #popup {

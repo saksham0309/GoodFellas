@@ -6,7 +6,12 @@ body {
     background-image: url('img.jpg');
     background-size: cover;
     background-position: center;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(8px);
+}
+
+.container {
+    position: relative;
+    z-index: 1;
 }
 
 #popup {
@@ -16,11 +21,34 @@ body {
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: -60px;
+    left: calc(50% - 40px);
+    z-index: 2;
+}
+
+.circle img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 #message {
     font-size: 20px;
     margin-bottom: 20px;
+    z-index: 1;
 }
 
 #buttons {

@@ -2,7 +2,7 @@
 const popups = [
     { message: "Movie tomorrow night?", responseYes: "That's great, I'll look for something.", responseNo: "Please?" },
     { message: "Please?", responseYes: "Chalo done, I'll look for something.", responseNo: "Okay." },
-    { message: "Mere liye?", responseYes: "Shukriy, I'll pick one", responseNo: "Okay." },
+    { message: "Mere liye?", responseYes: "Shukriya, I'll pick one", responseNo: "Okay." },
     { message: "Just a smol one!!", responseYes: "Thank you!!", responseNo: "Okay." },
     { message: "Fir soch le...", responseYes: "Itni mehnat krwa di, chalo koi na", responseNo: "Okay." },
     { message: "Last chance, movie?", responseYes: "Good, tum dhund lena koi", responseNo: "Okay." },
